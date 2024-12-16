@@ -1,5 +1,7 @@
-import React from 'react'
-import { star } from '../assets/icons'
+/** @format */
+
+import React from "react";
+import { star } from "../assets/icons";
 
 const PopularProductCard = ({ imgURL, name, price }) => {
   return (
@@ -17,6 +19,6 @@ const PopularProductCard = ({ imgURL, name, price }) => {
       </p>
     </div>
   );
-}
+};
 
-export default PopularProductCard
+export default PopularProductCard;
