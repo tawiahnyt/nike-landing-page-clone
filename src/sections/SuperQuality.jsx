@@ -12,16 +12,15 @@ const SuperQuality = () => {
     >
       <div className="flex flex-1 flex-col">
         <h2 className="mt-10 font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
-          We Provide you <span className="text-coral-red">Super Quality</span>{" "}
-          Shoes
-          {/* <span className="text-coral-red">Quality</span> */}
+          We Provide you <span className="text-coral-red">Super</span>{" "}
+          <span className="text-coral-red">Quality</span> Shoes
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
           Ensuring premium comfort and style, our meticulously crafted shoes are
           designed to meet the highest standards of quality and durability and a
           touch of elegance.
         </p>
-        <p className="mt-6 lg:max-w-lg text-info">
+        <p className="mt-6 lg:max-w-lg info-text">
           Our dedication to detail and excellence ensures your satisfaction
         </p>
         <div className="mt-11">
@@ -30,7 +29,13 @@ const SuperQuality = () => {
       </div>
 
       <div className="flex-1 flex justify-center items-center">
-        <img src={shoe8} alt="shoe8" width={570} height={522} className="object-contain" />
+        <img
+          src={shoe8}
+          alt="shoe8"
+          width={570}
+          height={522}
+          className="object-contain"
+        />
       </div>
     </section>
   );
